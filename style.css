@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 40px;
+    width: 125px;
+}
+.logo {
+    background-image: url("images/Amazon_logo.png");
+    height: 40px;
+    width: 100%;
+    margin-top: 6px;
+    background-size: cover;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+/**Box 2**/
+.address-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 20px;
+}
+.address-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.address-icon {
+    display: flex;
+}
+/**Box 3**/
+.nav-search {
+    display: flex;
+    background-color: #febd68;
+    height: 45px;
+    width: 950px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.search-select {
+    background-color: #f3f3f3;
+    color: black;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    font-size: larger;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+/** Box4**/
+span {
+    font-size: 12px;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** Box 6**/
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** Panel**/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px;
+    font-size: 18px;
+}
+.panel-all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    padding: 5px 10px;;
+}
+.panel-ops p {
+    display: inline;
+    margin: 0 10px;
+    font-weight: 100;
+} 
+.panel-ops {
+    margin-left: -35px;
+}
+
+.panel-ops a:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+/*Hero Section*/
+.hero-section {
+    background-image: url("images/hero_img.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    height: 45px;
+    width: 95%;
+    background-color: white;
+    font-style: arial,sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;;
+    margin-bottom: 55px;
+}
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+/*shop-section*/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #febd68;
+}
+.box {
+    /* border: 2px solid black; */
+    height: 400px;  
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+a {
+    text-decoration: none;
+}
+/*Footer*/
+.footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+    font-size: 18px;
+}
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+p {
+    font-weight: bold;
+}
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo {
+     background-image: url("images/Amazon_logo.png");
+    height: 40px;
+    width: 145px;
+    background-size: cover;
+}
+select {
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #222f3d;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.language {
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #222f3d;
+}
+.dollor {
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #222f3d;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.state {
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #222f3d;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.pages {
+    padding-top: 25px;
+}
+.copyright {
+    padding-top: 5px;
+}
+/* Background Blur Overlay */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+/* Large Popup Box */
+.popup-content {
+    background: white;
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.popup-content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.popup-content button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.popup-content button:hover {
+    transform: scale(1.05);
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
